@@ -9,7 +9,7 @@ const LOGIN = "https://auth.bupt.edu.cn/authserver/login";
 const GET_REPORT = "https://app.bupt.edu.cn/ncov/wap/default/index";
 const POST_REPORT = "https://app.bupt.edu.cn/ncov/wap/default/save";
 const RETRY = 100;
-const TIMEOUT = 2000;
+const TIMEOUT = 10000;
 
 async function login(
     loginForm: LoginForm
